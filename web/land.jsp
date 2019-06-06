@@ -11,10 +11,13 @@
     <title>java 学习登陆</title>
 </head>
 <body>
-<form action="LoginCheck" method="post">
-    <span>用户名</span><input type="text" name="username"><br>
-    <span>密码</span><input type="password" name="password"><br>
-    <input type = "submit" name="submit">
-</form>
+<h1 align="center">租车系统登陆</h1>
+<div style="width:100%;text-align:center">
+    <form action="LoginCheck" method="post">
+        <font size=5>用户名</font> <input type="text" name="username"><br>
+        <font size=5>密　码</font>  <input type="password" name="password" placeholder="四位数字"><br>
+        <p><input type = "submit" style="width:80px; height:30px; background:#F001; font-size:18px" name="submit"></p>
+    </form>
+</div>
 </body>
 </html>
